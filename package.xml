@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Sitewards_PriceCheck_Framework</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension provides an easy to use framework for overriding the standard Magento Product price model.</summary>
+    <description>This extension is aimed at developers who want to load the price of a product in realtime from another source.&#xD;
+Coding is required but can be provided at a cost.</description>
+    <notes>Moved code to community pool.&#xD;
+Fixed issue with zero price when extension is disabled.&#xD;
+</notes>
+    <authors><author><name>Sitewards Magento Team</name><user>sitewards</user><email>magento@sitewards.com</email></author></authors>
+    <date>2013-10-10</date>
+    <time>14:17:24</time>
+    <contents><target name="magecommunity"><dir name="Sitewards"><dir name="PriceCheck"><dir name="Helper"><file name="Data.php" hash="29a965587da9aee7a73dd61c35f925b2"/></dir><dir name="Model"><file name="Price.php" hash="462d9ec4a7c09cd346f250d066b66c5b"/></dir><dir name="etc"><file name="config.xml" hash="aaac92fa5ca4b0595f2fb58a361e9cfb"/><file name="system.xml" hash="8a756b93aa7ccfe9769d6cb1f3a567f5"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Sitewards_PriceCheck.xml" hash="bc09b03f9ea2eab9f797b7deb8c1b256"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
